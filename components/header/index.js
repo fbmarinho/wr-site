@@ -15,16 +15,16 @@ export default () => {
     <header>
       <div className="md:hidden">
         <div className="flex w-full p-5 bg-white ">
-          <a className="text-yellow" onClick={handleClick}>
-            <FontAwesomeIcon icon={faBars} size="3x" />
+          <a className="text-yellow mt-1" onClick={handleClick}>
+            <FontAwesomeIcon icon={faBars} size="2x" />
           </a>
           <img
             src="/images/wr_logo.svg"
             alt="Company logo"
-            width="75px"
-            className="ml-5"
+            width="70px"
+            className="ml-4"
           />
-          <span className="ml-5 mt-1 text-sm uppercase">
+          <span className="ml-4 mt-1 text-sm uppercase">
             Engenharia e <br /> consultoria logística
           </span>
         </div>
