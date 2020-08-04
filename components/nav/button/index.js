@@ -5,7 +5,7 @@ export default ({ className, to, children, onClick }) => {
     <Link href={"." + to} passHref>
       <a className={className} onClick={onClick}>
         <span className="text-yellow mr-1">+</span>{" "}
-        <span className="text-white">{children}</span>
+        <span className="text-white uppercase">{children}</span>
       </a>
     </Link>
   );

@@ -38,7 +38,7 @@ export default () => (
       <div className="w-full md:w-1/2 flex justify-center">Regulamentação</div>
       <div className="w-full md:w-1/2 flex justify-center">LOCS</div>
     </div>
-    <div className="w-full sm:w-full  md:w-full lg:w-1/3 xl:w-1/3">
+    <div className="w-full sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
       <div className="flex justify-between w-1/2 mx-auto mb-5 text-brown">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
         <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
@@ -57,8 +57,8 @@ export default () => (
 
         <div className="w-full">
           <FontAwesomeIcon icon={faMapMarkerAlt} color="white" />
-          <span className="ml-4 text-sm">
-            Rua Paulo Garcia, 396 - Benfica Juiz de fora - 36090-340
+          <span className="ml-4 text-sm text-right">
+            Rua Paulo Garcia, 396 - Benfica <br /> Juiz de fora - 36090-340
           </span>
         </div>
       </div>
