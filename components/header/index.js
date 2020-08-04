@@ -10,6 +10,7 @@ export default () => {
   const handleClick = () => {
     setOpened(!isOpened);
   };
+
   return (
     <header>
       <div className="md:hidden">
@@ -20,23 +21,31 @@ export default () => {
           <img
             src="/images/wr_logo.svg"
             alt="Company logo"
-            width="80px"
-            className="ml-20"
+            width="75px"
+            className="ml-5"
           />
-          <span className="ml-5 uppercase">
+          <span className="ml-5 mt-1 text-sm uppercase">
             Engenharia e <br /> consultoria logística
           </span>
         </div>
         <div
           id="menu"
           className={`${
-            isOpened ? "flex" : "hidden"
-          } flex-col bg-navy p-3 space-y-3`}
+            isOpened ? "show" : "hide"
+          } flex flex-col bg-navy p-5 space-y-4 menu`}
         >
-          <NavButton to="/">Home</NavButton>
-          <NavButton to="/sobre">Sobre</NavButton>
-          <NavButton to="/solucoes">Soluções</NavButton>
-          <NavButton to="/contato">Contato</NavButton>
+          <NavButton to="/" onClick={() => setOpened(false)}>
+            Home
+          </NavButton>
+          <NavButton to="/sobre" onClick={() => setOpened(false)}>
+            Sobre
+          </NavButton>
+          <NavButton to="/solucoes" onClick={() => setOpened(false)}>
+            Soluções
+          </NavButton>
+          <NavButton to="/contato" onClick={() => setOpened(false)}>
+            Contato
+          </NavButton>
         </div>
       </div>
       <div className="hidden md:block">

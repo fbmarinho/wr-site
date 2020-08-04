@@ -21,7 +21,7 @@ export default () => (
           width="92px"
           className="mr-5"
         />
-        <span className="text-lg uppercase text-brown">
+        <span className="text-sm md:text-lg uppercase text-brown">
           Engenharia e <br />
           consultoria Logística
         </span>
@@ -44,20 +44,20 @@ export default () => (
         <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </div>
-      <div className="mx-auto ml-5">
+      <div className="mx-auto ml-0 md:ml-5">
         <div className="w-full">
           <FontAwesomeIcon icon={faEnvelope} color="white" />
-          <span className="ml-4">contato@wrconsultoria.com.br</span>
+          <span className="ml-4 text-sm">contato@wrconsultoria.com.br</span>
         </div>
 
         <div className="w-full">
           <FontAwesomeIcon icon={faPhoneAlt} color="white" />
-          <span className="ml-4">(32) 3061-1891 | (32) 98835-4878</span>
+          <span className="ml-4 text-sm">(32) 3061-1891 | (32) 98835-4878</span>
         </div>
 
         <div className="w-full">
           <FontAwesomeIcon icon={faMapMarkerAlt} color="white" />
-          <span className="ml-4">
+          <span className="ml-4 text-sm">
             Rua Paulo Garcia, 396 - Benfica Juiz de fora - 36090-340
           </span>
         </div>
